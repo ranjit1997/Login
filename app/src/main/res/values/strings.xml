@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SAF</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="filter">Filter</string>
+    <string-array name="query_suggestions">
+        <item>Woman</item>
+        <item>youtube</item>
+        <item>android</item>
+        <item>boy</item>
+        <item>student</item>
+        <item>Ranjeet</item>
+        <item>papu</item>
+        <item>chaman</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    // For sell page
+    <string name="hint_name">Ad title*</string>
+
+    <string name="hint_email">Describe what you are selling*</string>
+
+
+
+</resources>

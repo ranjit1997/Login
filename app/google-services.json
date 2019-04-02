@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739152533052",
+    "firebase_url": "https://noted-processor-228010.firebaseio.com",
+    "project_id": "noted-processor-228010",
+    "storage_bucket": "noted-processor-228010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739152533052:android:3663dda271745cb1",
+        "android_client_info": {
+          "package_name": "com.example.ranjeet.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739152533052-blq07u85psc771qn4a426876sc59v0bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ranjeet.login",
+            "certificate_hash": "4f0db488e9eb36cd66d5defd3df4cfef39e7e16c"
+          }
+        },
+        {
+          "client_id": "739152533052-qkrsm63sod08j38risa54m49sa3nhmhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByPIk60oX5E2tBSFmmcuYovwK73Umxc88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739152533052-qkrsm63sod08j38risa54m49sa3nhmhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

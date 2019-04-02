@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ServicePage">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:id="@+id/Recyclerv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:scrollbars="horizontal" />
+
+        <RelativeLayout
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Location_button"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_marginLeft="65dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_down" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edittextstyle"
+                android:padding="5dp"
+                android:paddingTop="0dp"
+                android:text="Societys"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+            <ImageView
+                android:id="@+id/back"
+                android:layout_marginLeft="76dp"
+                android:layout_width="25dp"
+                android:src="@drawable/ic_cancel"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="72dp"
+            android:text="All Categoeries Of Societys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/userlayout">
+
+        <GridView
+            android:id="@+id/customgrid2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/os_texts"
+            android:numColumns="2" />
+
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:background="@color/white">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/IVHome"-->
+                <!--android:layout_width="36dp"-->
+                <!--android:layout_height="38dp"-->
+                <!--android:src="@drawable/ic_homes" />-->
+            <!--<TextView-->
+                <!--android:text="Home"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="12dp"-->
+                <!--android:layout_below="@+id/IVHome"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_marginLeft="2dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/IVProfile"-->
+                <!--android:layout_width="36dp"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:src="@drawable/ic_profile" />-->
+            <!--<TextView-->
+                <!--android:text="Profile"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_below="@+id/IVProfile"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</RelativeLayout>-->
+
+    <!--</RelativeLayout>-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/tvsell"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginLeft="160dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginBottom="23dp"-->
+        <!--android:src="@drawable/camera" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/toolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.AppBarOverlay" />
+            <com.miguelcatalan.materialsearchview.MaterialSearchView
+                android:layout_width="match_parent"
+                android:id="@+id/search_view"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="The new metral design search view"/>-->
+
+</RelativeLayout>

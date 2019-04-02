@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/profileimg"
+            android:layout_width="match_parent"
+            android:layout_height="195dp">
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:elevation="5dp"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/babu" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:alpha="0.8"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/layout"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:text="View Profile"
+                android:textSize="14dp"
+                android:id="@+id/tvViewProfile"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="65dp"
+                android:text="Ranjeet Kumar"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/user_profile_short_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_profile_name"
+                android:layout_alignStart="@+id/user_profile_name"
+                android:layout_alignLeft="@+id/user_profile_name"
+                android:layout_marginTop="8dp"
+                android:text="Verified with"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+            <ImageView
+
+                android:src="@drawable/ic_email"
+                android:layout_marginTop="132dp"
+                android:layout_width="45dp"
+                android:background="@drawable/fblayout"
+                android:layout_marginLeft="45dp"
+                android:layout_height="45dp"
+                />
+            <ImageView
+                android:src="@drawable/ic_phone"
+                android:layout_marginTop="132dp"
+                android:layout_width="45dp"
+                android:background="@drawable/fblayout"
+                android:layout_marginLeft="165dp"
+                android:layout_height="45dp"/>
+            <ImageView
+                android:src="@drawable/fbicon"
+                android:layout_marginTop="133dp"
+                android:layout_width="45dp"
+                android:background="@drawable/fblayout"
+                android:layout_marginLeft="105dp"
+                android:layout_height="45dp"/>
+
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:layout_marginTop="368dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tvFeedbackLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:elevation="2dp"
+                    android:background="@drawable/whiteborder">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/ic_magnify"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/fbicon" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/ic_magnify"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="13dp"
+                        android:textColor="@color/fb"
+                        android:textStyle="bold"
+                        android:text="LINK YOUR FACEBOOK"
+                        android:singleLine="true" />
+
+
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/TVAccount"
+                    android:background="@drawable/whiteborder"
+                    android:layout_marginTop="76dp"
+                    android:layout_width="match_parent"
+                    android:text="ACCOUNT AND PAYMENT"
+                    android:paddingTop="20dp"
+                    android:textSize="13dp"
+                    android:elevation="2dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#07b9ff"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:id="@+id/tvFeedback"
+                    android:text="FEEDBACK AND HELP"
+                    android:paddingTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="13dp"
+                    android:elevation="3dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#07b9ff"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/whiteborder"
+                    android:layout_marginTop="143dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+            </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

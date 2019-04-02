@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title=""
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/Filter"
+        android:icon="@drawable/filterim"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="" />
+    <item
+        android:id="@+id/Filter1"
+        android:orderInCategory="100"
+        android:title="@string/filter"
+        app:showAsAction="always"/>
+
+
+
+    <!--<item-->
+        <!---->
+        <!--android:title="Categories"-->
+        <!--app:showAsAction="always" />-->
+
+
+</menu>

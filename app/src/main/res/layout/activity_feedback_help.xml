@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account_Payments">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:elevation="10dp"
+        android:background="@drawable/whiteborder"
+        android:id="@+id/relLayout1">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ic_magnify"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Feedback and Help"
+            android:singleLine="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:elevation="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/page_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Feedback"
+            android:textColor="@color/pink"
+            android:textSize="14dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/rateapp"
+            android:text="Rate App"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvShare"
+            android:text="Share App"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="195dp"
+            android:text="Help"
+            android:textColor="@color/pink"
+            android:textSize="14dp" />
+
+        <TextView
+            android:text="Help and Support"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Terms and Condations"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="267dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Privacy Policy"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
